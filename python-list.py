@@ -63,6 +63,14 @@ studentwithnameM = [x for x in student if 'M' in x]
 
 print(studentwithnameM)
 
+# sorting
+student.sort()
+print("sorted students")
+print(student)
+
+student.sort(reverse= True)
+print(student)
+
 
 
 
